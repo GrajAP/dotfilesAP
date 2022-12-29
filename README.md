@@ -39,7 +39,7 @@
   - [server](modules/server) ☁️ Server stuff for selfhosting on pi4
   - [wayland](modules/wayland) 🚀 Wayland configs and rice
 - [hosts](hosts) 🌳 per-host configuration
-  - [anthe](hosts/anthe) 🖥️ My desktop with nvidia gpu
+  - [anthe](hosts/AP) 🖥️ My desktop with nvidia gpu
 - [pkgs](pkgs) 💿 exported packages
 
 ## ❤️ Special thanks to
