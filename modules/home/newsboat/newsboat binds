@@ -1,0 +1,26 @@
+    bind-key j down: This keybinding binds the j key to the down command. This command is not further described in the code snippet, so it is not clear what it does.
+
+    bind-key k up: This keybinding binds the k key to the up command. This command is not further described in the code snippet, so it is not clear what it does.
+
+    bind-key j next articlelist: This keybinding binds the j key to the next command with the articlelist argument. This command is not further described in the code snippet, so it is not clear what it does.
+
+    bind-key k prev articlelist: This keybinding binds the k key to the prev command with the articlelist argument. This command is not further described in the code snippet, so it is not clear what it does.
+
+    bind-key J next-feed articlelist: This keybinding binds the J key to the next-feed command with the articlelist argument. This command is not further described in the code snippet, so it is not clear what it does.
+
+    bind-key K prev-feed articlelist: This keybinding binds the K key to the prev-feed command with the articlelist argument. This command is not further described in the code snippet, so it is not clear what it does.
+
+    bind-key G end: This keybinding binds the G key to the end command. This command is not further described in the code snippet, so it is not clear what it does.
+
+    bind-key g home: This keybinding binds the g key to the home command. This command is not further described in the code snippet, so it is not clear what it does.
+
+    bind-key d pagedown: This keybinding binds the d key to the pagedown command. This command is not further described in the code snippet, so it is not clear what it does.
+
+    bind-key u pageup: This keybinding binds the u key to the pageup command. This command is not further described in the code snippet, so it is not clear what it does.
+
+    bind-key l open: This keybinding binds the l key to the open command. This command is not further described in the code snippet, so it is not clear what it does.
+        bind-key h quit: This keybinding binds the h key to the quit command. When this keybinding is activated, the quit command will be executed, which likely closes the newsreader program or cancels the current operation.
+
+    bind-key a toggle-article-read: This keybinding binds the a key to the toggle-article-read command. When this keybinding is activated, the toggle-article-read command will be executed. This command is not further described in the code snippet, so it is not clear what it does.
+
+    bind-key n next-unread: This keybinding binds the n

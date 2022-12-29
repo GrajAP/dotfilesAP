@@ -1,0 +1,27 @@
+    co: This alias stands for "checkout". It can be used to switch between branches or restore specific versions of files in the repository.
+
+    fuck: This alias stands for "commit --amend -m". It can be used to modify the most recent commit by adding new changes to it and replacing the commit message with a new one.
+
+    c: This alias stands for "commit -m". It can be used to create a new commit with a specified commit message.
+
+    ca: This alias stands for "commit -am". It can be used to create a new commit by adding all modified files to the staging area and specifying a commit message.
+
+    d: This alias stands for "diff". It can be used to compare differences between versions of files in the repository.
+
+    ps: This alias stands for "!git push origin $(git rev-parse --abbrev-ref HEAD)". It can be used to push the current branch to the remote repository.
+
+    pl: This alias stands for "!git pull origin $(git rev-parse --abbrev-ref HEAD)". It can be used to pull the current branch from the remote repository.
+
+    af: This alias stands for "!git add $(git ls-files -m -o --exclude-standard | fzf -m)". It can be used to interactively add modified or untracked files to the staging area using the fzf utility.
+
+    st: This alias stands for "status". It can be used to show the status of the repository, including modified and untracked files.
+
+    br: This alias stands for "branch". It can be used to list, create, or delete branches in the repository.
+
+    df: This alias stands for "!git hist | peco | awk '{print $2}' | xargs -I {} git diff {}^ {}". It can be used to interactively select a commit from the history using the peco utility and view the differences between that commit and its parent commit.
+
+    hist: This alias stands for "log --pretty=format:"%Cgreen%h %Creset%cd %Cblue[%cn] %Creset%s%C(yellow)%d%C(reset)" --graph --date=relative --decorate --all". It can be used to view the commit history for the repository.
+
+    llog: This alias stands for "log --graph --name-status --pretty=format:"%C(red)%h %C(reset)(%cd) %C(green)%an %Creset%s %C(yellow)%d%Creset" --date=relative". It can be used to view the commit history for the repository in a more concise format.
+
+    edit-unmerged: This alias stands for "!f()
